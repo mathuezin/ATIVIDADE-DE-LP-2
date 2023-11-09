@@ -1,0 +1,31 @@
+#include <stdint.h>
+#include <stdio.h>
+
+int main()
+{
+
+    int nota;
+
+    printf("Digite qual sua nota:");
+    scanf("%d", &nota);
+    system("cls || clear");
+
+    if (nota >= 9)
+    {
+        printf("Excelente!");
+    }
+    else if (nota >= 7)
+    {
+        printf("Bom!");
+    }
+    if (nota >= 5)
+    {
+        printf("Razoavel");
+    }
+    else
+    {
+        printf("Insuficiente");
+    }
+
+    return 0;
+}
